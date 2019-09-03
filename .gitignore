@@ -1,0 +1,6 @@
+/rtsp_stream.py
+/video_parse.py
+/forever.py
+**/__pycache__
+*.ipynb
+*.pth

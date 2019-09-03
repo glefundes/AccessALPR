@@ -1,0 +1,568 @@
+PyTorch Version: 1.1.0
+CUDA device available: True
+Output Path: transfer_learning/unfrozen/realplates/
+Learning Rate: 1e-05
+Number of epochs to train: 30
+Batch:0/90 | Epoch: 0/30 | Cost: 0.1005 | Time elapsed: 0.05 min
+Batch:10/90 | Epoch: 0/30 | Cost: 0.1024 | Time elapsed: 0.47 min
+Batch:20/90 | Epoch: 0/30 | Cost: 0.0901 | Time elapsed: 0.88 min
+Batch:30/90 | Epoch: 0/30 | Cost: 0.0961 | Time elapsed: 1.28 min
+Batch:40/90 | Epoch: 0/30 | Cost: 0.0932 | Time elapsed: 1.69 min
+Batch:50/90 | Epoch: 0/30 | Cost: 0.0862 | Time elapsed: 2.06 min
+Batch:60/90 | Epoch: 0/30 | Cost: 0.0866 | Time elapsed: 2.43 min
+Batch:70/90 | Epoch: 0/30 | Cost: 0.0838 | Time elapsed: 2.79 min
+Batch:80/90 | Epoch: 0/30 | Cost: 0.0805 | Time elapsed: 3.14 min
+Evaluation for epoch 0:Test
+"Hits: 921(13.15) | >=6: 2327(33.22) | >=5: 3712(52.99) | Total examples: 7005"Train
+"Hits: 1564(13.65) | >=6: 3857(33.67) | >=5: 6141(53.61) | Total examples: 11454"Batch:0/90 | Epoch: 1/30 | Cost: 0.0728 | Time elapsed: 5.94 min
+Batch:10/90 | Epoch: 1/30 | Cost: 0.0741 | Time elapsed: 6.20 min
+Batch:20/90 | Epoch: 1/30 | Cost: 0.0776 | Time elapsed: 6.56 min
+Batch:30/90 | Epoch: 1/30 | Cost: 0.0732 | Time elapsed: 7.04 min
+Batch:40/90 | Epoch: 1/30 | Cost: 0.0699 | Time elapsed: 7.44 min
+Batch:50/90 | Epoch: 1/30 | Cost: 0.0700 | Time elapsed: 7.81 min
+Batch:60/90 | Epoch: 1/30 | Cost: 0.0687 | Time elapsed: 8.19 min
+Batch:70/90 | Epoch: 1/30 | Cost: 0.0644 | Time elapsed: 8.55 min
+Batch:80/90 | Epoch: 1/30 | Cost: 0.0613 | Time elapsed: 8.92 min
+Evaluation for epoch 1:Test
+"Hits: 1517(21.66) | >=6: 3281(46.84) | >=5: 4629(66.08) | Total examples: 7005"Train
+"Hits: 2884(25.18) | >=6: 5752(50.22) | >=5: 7862(68.64) | Total examples: 11454"Batch:0/90 | Epoch: 2/30 | Cost: 0.0616 | Time elapsed: 13.56 min
+Batch:10/90 | Epoch: 2/30 | Cost: 0.0670 | Time elapsed: 14.02 min
+Batch:20/90 | Epoch: 2/30 | Cost: 0.0613 | Time elapsed: 14.51 min
+Batch:30/90 | Epoch: 2/30 | Cost: 0.0624 | Time elapsed: 14.98 min
+Batch:40/90 | Epoch: 2/30 | Cost: 0.0602 | Time elapsed: 15.47 min
+Batch:50/90 | Epoch: 2/30 | Cost: 0.0601 | Time elapsed: 15.94 min
+Batch:60/90 | Epoch: 2/30 | Cost: 0.0584 | Time elapsed: 16.39 min
+Batch:70/90 | Epoch: 2/30 | Cost: 0.0596 | Time elapsed: 16.84 min
+Batch:80/90 | Epoch: 2/30 | Cost: 0.0522 | Time elapsed: 17.28 min
+Evaluation for epoch 2:Test
+"Hits: 1818(25.95) | >=6: 3657(52.21) | >=5: 4926(70.32) | Total examples: 7005"Train
+"Hits: 3730(32.57) | >=6: 6751(58.94) | >=5: 8684(75.82) | Total examples: 11454"Batch:0/90 | Epoch: 3/30 | Cost: 0.0550 | Time elapsed: 23.19 min
+Batch:10/90 | Epoch: 3/30 | Cost: 0.0515 | Time elapsed: 23.65 min
+Batch:20/90 | Epoch: 3/30 | Cost: 0.0573 | Time elapsed: 24.10 min
+Batch:30/90 | Epoch: 3/30 | Cost: 0.0500 | Time elapsed: 24.53 min
+Batch:40/90 | Epoch: 3/30 | Cost: 0.0509 | Time elapsed: 24.93 min
+Batch:50/90 | Epoch: 3/30 | Cost: 0.0541 | Time elapsed: 25.41 min
+Batch:60/90 | Epoch: 3/30 | Cost: 0.0535 | Time elapsed: 25.80 min
+Batch:70/90 | Epoch: 3/30 | Cost: 0.0481 | Time elapsed: 26.17 min
+Batch:80/90 | Epoch: 3/30 | Cost: 0.0497 | Time elapsed: 26.56 min
+Evaluation for epoch 3:Test
+"Hits: 1988(28.38) | >=6: 3928(56.07) | >=5: 5174(73.86) | Total examples: 7005"Train
+"Hits: 4385(38.28) | >=6: 7459(65.12) | >=5: 9192(80.25) | Total examples: 11454"Batch:0/90 | Epoch: 4/30 | Cost: 0.0485 | Time elapsed: 30.09 min
+Batch:10/90 | Epoch: 4/30 | Cost: 0.0456 | Time elapsed: 30.50 min
+Batch:20/90 | Epoch: 4/30 | Cost: 0.0485 | Time elapsed: 30.95 min
+Batch:30/90 | Epoch: 4/30 | Cost: 0.0481 | Time elapsed: 31.35 min
+Batch:40/90 | Epoch: 4/30 | Cost: 0.0444 | Time elapsed: 31.74 min
+Batch:50/90 | Epoch: 4/30 | Cost: 0.0422 | Time elapsed: 32.17 min
+Batch:60/90 | Epoch: 4/30 | Cost: 0.0440 | Time elapsed: 32.62 min
+Batch:70/90 | Epoch: 4/30 | Cost: 0.0425 | Time elapsed: 33.10 min
+Batch:80/90 | Epoch: 4/30 | Cost: 0.0428 | Time elapsed: 33.55 min
+Evaluation for epoch 4:Test
+"Hits: 2185(31.19) | >=6: 4134(59.01) | >=5: 5333(76.13) | Total examples: 7005"Train
+"Hits: 4963(43.33) | >=6: 7993(69.78) | >=5: 9538(83.27) | Total examples: 11454"Batch:0/90 | Epoch: 5/30 | Cost: 0.0488 | Time elapsed: 38.54 min
+Batch:10/90 | Epoch: 5/30 | Cost: 0.0413 | Time elapsed: 38.58 min
+Batch:20/90 | Epoch: 5/30 | Cost: 0.0416 | Time elapsed: 38.62 min
+Batch:30/90 | Epoch: 5/30 | Cost: 0.0416 | Time elapsed: 38.67 min
+Batch:40/90 | Epoch: 5/30 | Cost: 0.0407 | Time elapsed: 38.71 min
+Batch:50/90 | Epoch: 5/30 | Cost: 0.0438 | Time elapsed: 38.75 min
+Batch:60/90 | Epoch: 5/30 | Cost: 0.0389 | Time elapsed: 38.81 min
+Batch:70/90 | Epoch: 5/30 | Cost: 0.0409 | Time elapsed: 38.86 min
+Batch:80/90 | Epoch: 5/30 | Cost: 0.0389 | Time elapsed: 38.92 min
+Evaluation for epoch 5:Test
+"Hits: 2349(33.53) | >=6: 4311(61.54) | >=5: 5447(77.76) | Total examples: 7005"Train
+"Hits: 5506(48.07) | >=6: 8393(73.28) | >=5: 9817(85.71) | Total examples: 11454"Batch:0/90 | Epoch: 6/30 | Cost: 0.0400 | Time elapsed: 39.49 min
+Batch:10/90 | Epoch: 6/30 | Cost: 0.0410 | Time elapsed: 39.53 min
+Batch:20/90 | Epoch: 6/30 | Cost: 0.0423 | Time elapsed: 39.58 min
+Batch:30/90 | Epoch: 6/30 | Cost: 0.0395 | Time elapsed: 39.62 min
+Batch:40/90 | Epoch: 6/30 | Cost: 0.0393 | Time elapsed: 39.66 min
+Batch:50/90 | Epoch: 6/30 | Cost: 0.0376 | Time elapsed: 39.71 min
+Batch:60/90 | Epoch: 6/30 | Cost: 0.0411 | Time elapsed: 39.75 min
+Batch:70/90 | Epoch: 6/30 | Cost: 0.0356 | Time elapsed: 39.79 min
+Batch:80/90 | Epoch: 6/30 | Cost: 0.0407 | Time elapsed: 39.83 min
+Evaluation for epoch 6:Test
+"Hits: 2485(35.47) | >=6: 4442(63.41) | >=5: 5560(79.37) | Total examples: 7005"Train
+"Hits: 5992(52.31) | >=6: 8797(76.80) | >=5: 10079(88.00) | Total examples: 11454"Batch:0/90 | Epoch: 7/30 | Cost: 0.0407 | Time elapsed: 40.32 min
+Batch:10/90 | Epoch: 7/30 | Cost: 0.0390 | Time elapsed: 40.36 min
+Batch:20/90 | Epoch: 7/30 | Cost: 0.0398 | Time elapsed: 40.41 min
+Batch:30/90 | Epoch: 7/30 | Cost: 0.0390 | Time elapsed: 40.45 min
+Batch:40/90 | Epoch: 7/30 | Cost: 0.0353 | Time elapsed: 40.49 min
+Batch:50/90 | Epoch: 7/30 | Cost: 0.0354 | Time elapsed: 40.54 min
+Batch:60/90 | Epoch: 7/30 | Cost: 0.0349 | Time elapsed: 40.58 min
+Batch:70/90 | Epoch: 7/30 | Cost: 0.0360 | Time elapsed: 40.62 min
+Batch:80/90 | Epoch: 7/30 | Cost: 0.0326 | Time elapsed: 40.66 min
+Evaluation for epoch 7:Test
+"Hits: 2604(37.17) | >=6: 4579(65.37) | >=5: 5641(80.53) | Total examples: 7005"Train
+"Hits: 6394(55.82) | >=6: 9095(79.40) | >=5: 10263(89.60) | Total examples: 11454"Batch:0/90 | Epoch: 8/30 | Cost: 0.0334 | Time elapsed: 41.14 min
+Batch:10/90 | Epoch: 8/30 | Cost: 0.0361 | Time elapsed: 41.18 min
+Batch:20/90 | Epoch: 8/30 | Cost: 0.0358 | Time elapsed: 41.22 min
+Batch:30/90 | Epoch: 8/30 | Cost: 0.0334 | Time elapsed: 41.26 min
+Batch:40/90 | Epoch: 8/30 | Cost: 0.0320 | Time elapsed: 41.31 min
+Batch:50/90 | Epoch: 8/30 | Cost: 0.0321 | Time elapsed: 41.35 min
+Batch:60/90 | Epoch: 8/30 | Cost: 0.0312 | Time elapsed: 41.39 min
+Batch:70/90 | Epoch: 8/30 | Cost: 0.0307 | Time elapsed: 41.44 min
+Batch:80/90 | Epoch: 8/30 | Cost: 0.0346 | Time elapsed: 41.48 min
+Evaluation for epoch 8:Test
+"Hits: 2702(38.57) | >=6: 4664(66.58) | >=5: 5727(81.76) | Total examples: 7005"Train
+"Hits: 6780(59.19) | >=6: 9349(81.62) | >=5: 10366(90.50) | Total examples: 11454"Batch:0/90 | Epoch: 9/30 | Cost: 0.0345 | Time elapsed: 42.01 min
+Batch:10/90 | Epoch: 9/30 | Cost: 0.0320 | Time elapsed: 42.06 min
+Batch:20/90 | Epoch: 9/30 | Cost: 0.0333 | Time elapsed: 42.10 min
+Batch:30/90 | Epoch: 9/30 | Cost: 0.0318 | Time elapsed: 42.14 min
+Batch:40/90 | Epoch: 9/30 | Cost: 0.0285 | Time elapsed: 42.18 min
+Batch:50/90 | Epoch: 9/30 | Cost: 0.0329 | Time elapsed: 42.23 min
+Batch:60/90 | Epoch: 9/30 | Cost: 0.0340 | Time elapsed: 42.27 min
+Batch:70/90 | Epoch: 9/30 | Cost: 0.0288 | Time elapsed: 42.31 min
+Batch:80/90 | Epoch: 9/30 | Cost: 0.0310 | Time elapsed: 42.35 min
+Evaluation for epoch 9:Test
+"Hits: 2784(39.74) | >=6: 4770(68.09) | >=5: 5806(82.88) | Total examples: 7005"Train
+"Hits: 7130(62.25) | >=6: 9558(83.45) | >=5: 10480(91.50) | Total examples: 11454"Batch:0/90 | Epoch: 10/30 | Cost: 0.0295 | Time elapsed: 46.21 min
+Batch:10/90 | Epoch: 10/30 | Cost: 0.0334 | Time elapsed: 46.58 min
+Batch:20/90 | Epoch: 10/30 | Cost: 0.0301 | Time elapsed: 46.94 min
+Batch:30/90 | Epoch: 10/30 | Cost: 0.0306 | Time elapsed: 47.29 min
+Batch:40/90 | Epoch: 10/30 | Cost: 0.0259 | Time elapsed: 47.63 min
+Batch:50/90 | Epoch: 10/30 | Cost: 0.0271 | Time elapsed: 47.98 min
+Batch:60/90 | Epoch: 10/30 | Cost: 0.0285 | Time elapsed: 48.32 min
+Batch:70/90 | Epoch: 10/30 | Cost: 0.0279 | Time elapsed: 48.69 min
+Batch:80/90 | Epoch: 10/30 | Cost: 0.0274 | Time elapsed: 49.07 min
+Evaluation for epoch 10:Test
+"Hits: 2897(41.36) | >=6: 4834(69.01) | >=5: 5875(83.87) | Total examples: 7005"Train
+"Hits: 7429(64.86) | >=6: 9721(84.87) | >=5: 10580(92.37) | Total examples: 11454"Batch:0/90 | Epoch: 11/30 | Cost: 0.0268 | Time elapsed: 51.92 min
+Batch:10/90 | Epoch: 11/30 | Cost: 0.0283 | Time elapsed: 52.19 min
+Batch:20/90 | Epoch: 11/30 | Cost: 0.0312 | Time elapsed: 52.62 min
+Batch:30/90 | Epoch: 11/30 | Cost: 0.0305 | Time elapsed: 53.03 min
+Batch:40/90 | Epoch: 11/30 | Cost: 0.0277 | Time elapsed: 53.43 min
+Batch:50/90 | Epoch: 11/30 | Cost: 0.0320 | Time elapsed: 53.81 min
+Batch:60/90 | Epoch: 11/30 | Cost: 0.0272 | Time elapsed: 54.19 min
+Batch:70/90 | Epoch: 11/30 | Cost: 0.0282 | Time elapsed: 54.55 min
+Batch:80/90 | Epoch: 11/30 | Cost: 0.0269 | Time elapsed: 54.93 min
+Evaluation for epoch 11:Test
+"Hits: 2971(42.41) | >=6: 4911(70.11) | >=5: 5957(85.04) | Total examples: 7005"Train
+"Hits: 7707(67.29) | >=6: 9870(86.17) | >=5: 10666(93.12) | Total examples: 11454"Batch:0/90 | Epoch: 12/30 | Cost: 0.0264 | Time elapsed: 58.09 min
+Batch:10/90 | Epoch: 12/30 | Cost: 0.0300 | Time elapsed: 58.27 min
+Batch:20/90 | Epoch: 12/30 | Cost: 0.0278 | Time elapsed: 58.47 min
+Batch:30/90 | Epoch: 12/30 | Cost: 0.0272 | Time elapsed: 58.67 min
+Batch:40/90 | Epoch: 12/30 | Cost: 0.0243 | Time elapsed: 58.87 min
+Batch:50/90 | Epoch: 12/30 | Cost: 0.0230 | Time elapsed: 59.07 min
+Batch:60/90 | Epoch: 12/30 | Cost: 0.0284 | Time elapsed: 59.25 min
+Batch:70/90 | Epoch: 12/30 | Cost: 0.0281 | Time elapsed: 59.44 min
+Batch:80/90 | Epoch: 12/30 | Cost: 0.0271 | Time elapsed: 59.65 min
+Evaluation for epoch 12:Test
+"Hits: 3042(43.43) | >=6: 4979(71.08) | >=5: 6002(85.68) | Total examples: 7005"Train
+"Hits: 7969(69.57) | >=6: 10004(87.34) | >=5: 10733(93.71) | Total examples: 11454"Batch:0/90 | Epoch: 13/30 | Cost: 0.0264 | Time elapsed: 60.29 min
+Batch:10/90 | Epoch: 13/30 | Cost: 0.0267 | Time elapsed: 60.33 min
+Batch:20/90 | Epoch: 13/30 | Cost: 0.0263 | Time elapsed: 60.37 min
+Batch:30/90 | Epoch: 13/30 | Cost: 0.0261 | Time elapsed: 60.41 min
+Batch:40/90 | Epoch: 13/30 | Cost: 0.0268 | Time elapsed: 60.45 min
+Batch:50/90 | Epoch: 13/30 | Cost: 0.0290 | Time elapsed: 60.49 min
+Batch:60/90 | Epoch: 13/30 | Cost: 0.0291 | Time elapsed: 60.53 min
+Batch:70/90 | Epoch: 13/30 | Cost: 0.0264 | Time elapsed: 60.57 min
+Batch:80/90 | Epoch: 13/30 | Cost: 0.0257 | Time elapsed: 60.61 min
+Evaluation for epoch 13:Test
+"Hits: 3086(44.05) | >=6: 5027(71.76) | >=5: 6066(86.60) | Total examples: 7005"Train
+"Hits: 8177(71.39) | >=6: 10114(88.30) | >=5: 10797(94.26) | Total examples: 11454"Batch:0/90 | Epoch: 14/30 | Cost: 0.0235 | Time elapsed: 61.09 min
+Batch:10/90 | Epoch: 14/30 | Cost: 0.0275 | Time elapsed: 61.13 min
+Batch:20/90 | Epoch: 14/30 | Cost: 0.0242 | Time elapsed: 61.17 min
+Batch:30/90 | Epoch: 14/30 | Cost: 0.0254 | Time elapsed: 61.21 min
+Batch:40/90 | Epoch: 14/30 | Cost: 0.0261 | Time elapsed: 61.25 min
+Batch:50/90 | Epoch: 14/30 | Cost: 0.0259 | Time elapsed: 61.29 min
+Batch:60/90 | Epoch: 14/30 | Cost: 0.0267 | Time elapsed: 61.33 min
+Batch:70/90 | Epoch: 14/30 | Cost: 0.0231 | Time elapsed: 61.37 min
+Batch:80/90 | Epoch: 14/30 | Cost: 0.0230 | Time elapsed: 61.42 min
+Evaluation for epoch 14:Test
+"Hits: 3160(45.11) | >=6: 5078(72.49) | >=5: 6105(87.15) | Total examples: 7005"Train
+"Hits: 8393(73.28) | >=6: 10226(89.28) | >=5: 10853(94.75) | Total examples: 11454"Batch:0/90 | Epoch: 15/30 | Cost: 0.0262 | Time elapsed: 61.90 min
+Batch:10/90 | Epoch: 15/30 | Cost: 0.0228 | Time elapsed: 61.94 min
+Batch:20/90 | Epoch: 15/30 | Cost: 0.0232 | Time elapsed: 61.98 min
+Batch:30/90 | Epoch: 15/30 | Cost: 0.0253 | Time elapsed: 62.02 min
+Batch:40/90 | Epoch: 15/30 | Cost: 0.0242 | Time elapsed: 62.06 min
+Batch:50/90 | Epoch: 15/30 | Cost: 0.0228 | Time elapsed: 62.10 min
+Batch:60/90 | Epoch: 15/30 | Cost: 0.0266 | Time elapsed: 62.14 min
+Batch:70/90 | Epoch: 15/30 | Cost: 0.0240 | Time elapsed: 62.18 min
+Batch:80/90 | Epoch: 15/30 | Cost: 0.0253 | Time elapsed: 62.22 min
+Evaluation for epoch 15:Test
+"Hits: 3194(45.60) | >=6: 5136(73.32) | >=5: 6135(87.58) | Total examples: 7005"Train
+"Hits: 8550(74.65) | >=6: 10310(90.01) | >=5: 10891(95.08) | Total examples: 11454"Batch:0/90 | Epoch: 16/30 | Cost: 0.0268 | Time elapsed: 62.69 min
+Batch:10/90 | Epoch: 16/30 | Cost: 0.0264 | Time elapsed: 62.73 min
+Batch:20/90 | Epoch: 16/30 | Cost: 0.0238 | Time elapsed: 62.77 min
+Batch:30/90 | Epoch: 16/30 | Cost: 0.0252 | Time elapsed: 62.81 min
+Batch:40/90 | Epoch: 16/30 | Cost: 0.0239 | Time elapsed: 62.85 min
+Batch:50/90 | Epoch: 16/30 | Cost: 0.0237 | Time elapsed: 62.89 min
+Batch:60/90 | Epoch: 16/30 | Cost: 0.0212 | Time elapsed: 62.93 min
+Batch:70/90 | Epoch: 16/30 | Cost: 0.0273 | Time elapsed: 62.97 min
+Batch:80/90 | Epoch: 16/30 | Cost: 0.0197 | Time elapsed: 63.01 min
+Evaluation for epoch 16:Test
+"Hits: 3247(46.35) | >=6: 5176(73.89) | >=5: 6170(88.08) | Total examples: 7005"Train
+"Hits: 8710(76.04) | >=6: 10373(90.56) | >=5: 10948(95.58) | Total examples: 11454"Batch:0/90 | Epoch: 17/30 | Cost: 0.0212 | Time elapsed: 63.47 min
+Batch:10/90 | Epoch: 17/30 | Cost: 0.0209 | Time elapsed: 63.51 min
+Batch:20/90 | Epoch: 17/30 | Cost: 0.0252 | Time elapsed: 63.55 min
+Batch:30/90 | Epoch: 17/30 | Cost: 0.0238 | Time elapsed: 63.59 min
+Batch:40/90 | Epoch: 17/30 | Cost: 0.0196 | Time elapsed: 63.63 min
+Batch:50/90 | Epoch: 17/30 | Cost: 0.0231 | Time elapsed: 63.67 min
+Batch:60/90 | Epoch: 17/30 | Cost: 0.0255 | Time elapsed: 63.71 min
+Batch:70/90 | Epoch: 17/30 | Cost: 0.0204 | Time elapsed: 63.76 min
+Batch:80/90 | Epoch: 17/30 | Cost: 0.0190 | Time elapsed: 63.79 min
+Evaluation for epoch 17:Test
+"Hits: 3289(46.95) | >=6: 5218(74.49) | >=5: 6187(88.32) | Total examples: 7005"Train
+"Hits: 8859(77.34) | >=6: 10450(91.23) | >=5: 10970(95.77) | Total examples: 11454"Batch:0/90 | Epoch: 18/30 | Cost: 0.0203 | Time elapsed: 64.42 min
+Batch:10/90 | Epoch: 18/30 | Cost: 0.0213 | Time elapsed: 64.46 min
+Batch:20/90 | Epoch: 18/30 | Cost: 0.0203 | Time elapsed: 64.50 min
+Batch:30/90 | Epoch: 18/30 | Cost: 0.0209 | Time elapsed: 64.54 min
+Batch:40/90 | Epoch: 18/30 | Cost: 0.0219 | Time elapsed: 64.58 min
+Batch:50/90 | Epoch: 18/30 | Cost: 0.0215 | Time elapsed: 64.62 min
+Batch:60/90 | Epoch: 18/30 | Cost: 0.0217 | Time elapsed: 64.66 min
+Batch:70/90 | Epoch: 18/30 | Cost: 0.0238 | Time elapsed: 64.70 min
+Batch:80/90 | Epoch: 18/30 | Cost: 0.0205 | Time elapsed: 64.74 min
+Evaluation for epoch 18:Test
+"Hits: 3340(47.68) | >=6: 5246(74.89) | >=5: 6213(88.69) | Total examples: 7005"Train
+"Hits: 9027(78.81) | >=6: 10511(91.77) | >=5: 11012(96.14) | Total examples: 11454"Batch:0/90 | Epoch: 19/30 | Cost: 0.0220 | Time elapsed: 67.28 min
+Batch:10/90 | Epoch: 19/30 | Cost: 0.0217 | Time elapsed: 67.73 min
+Batch:20/90 | Epoch: 19/30 | Cost: 0.0238 | Time elapsed: 68.15 min
+Batch:30/90 | Epoch: 19/30 | Cost: 0.0222 | Time elapsed: 68.58 min
+Batch:40/90 | Epoch: 19/30 | Cost: 0.0204 | Time elapsed: 68.99 min
+Batch:50/90 | Epoch: 19/30 | Cost: 0.0201 | Time elapsed: 69.40 min
+Batch:60/90 | Epoch: 19/30 | Cost: 0.0200 | Time elapsed: 69.83 min
+Batch:70/90 | Epoch: 19/30 | Cost: 0.0203 | Time elapsed: 70.25 min
+Batch:80/90 | Epoch: 19/30 | Cost: 0.0232 | Time elapsed: 70.67 min
+Evaluation for epoch 19:Test
+"Hits: 3377(48.21) | >=6: 5299(75.65) | >=5: 6236(89.02) | Total examples: 7005"Train
+"Hits: 9138(79.78) | >=6: 10563(92.22) | >=5: 11049(96.46) | Total examples: 11454"Batch:0/90 | Epoch: 20/30 | Cost: 0.0216 | Time elapsed: 74.76 min
+Batch:10/90 | Epoch: 20/30 | Cost: 0.0200 | Time elapsed: 75.18 min
+Batch:20/90 | Epoch: 20/30 | Cost: 0.0193 | Time elapsed: 75.61 min
+Batch:30/90 | Epoch: 20/30 | Cost: 0.0178 | Time elapsed: 76.03 min
+Batch:40/90 | Epoch: 20/30 | Cost: 0.0217 | Time elapsed: 76.44 min
+Batch:50/90 | Epoch: 20/30 | Cost: 0.0205 | Time elapsed: 76.85 min
+Batch:60/90 | Epoch: 20/30 | Cost: 0.0225 | Time elapsed: 77.23 min
+Batch:70/90 | Epoch: 20/30 | Cost: 0.0195 | Time elapsed: 77.63 min
+Batch:80/90 | Epoch: 20/30 | Cost: 0.0205 | Time elapsed: 78.03 min
+Evaluation for epoch 20:Test
+"Hits: 3404(48.59) | >=6: 5342(76.26) | >=5: 6246(89.16) | Total examples: 7005"Train
+"Hits: 9260(80.85) | >=6: 10611(92.64) | >=5: 11073(96.67) | Total examples: 11454"Batch:0/90 | Epoch: 21/30 | Cost: 0.0198 | Time elapsed: 80.06 min
+Batch:10/90 | Epoch: 21/30 | Cost: 0.0176 | Time elapsed: 80.10 min
+Batch:20/90 | Epoch: 21/30 | Cost: 0.0222 | Time elapsed: 80.14 min
+Batch:30/90 | Epoch: 21/30 | Cost: 0.0191 | Time elapsed: 80.18 min
+Batch:40/90 | Epoch: 21/30 | Cost: 0.0222 | Time elapsed: 80.22 min
+Batch:50/90 | Epoch: 21/30 | Cost: 0.0231 | Time elapsed: 80.26 min
+Batch:60/90 | Epoch: 21/30 | Cost: 0.0197 | Time elapsed: 80.30 min
+Batch:70/90 | Epoch: 21/30 | Cost: 0.0179 | Time elapsed: 80.34 min
+Batch:80/90 | Epoch: 21/30 | Cost: 0.0195 | Time elapsed: 80.38 min
+Evaluation for epoch 21:Test
+"Hits: 3449(49.24) | >=6: 5364(76.57) | >=5: 6270(89.51) | Total examples: 7005"Train
+"Hits: 9401(82.08) | >=6: 10667(93.13) | >=5: 11099(96.90) | Total examples: 11454"Batch:0/90 | Epoch: 22/30 | Cost: 0.0172 | Time elapsed: 80.85 min
+Batch:10/90 | Epoch: 22/30 | Cost: 0.0172 | Time elapsed: 80.89 min
+Batch:20/90 | Epoch: 22/30 | Cost: 0.0184 | Time elapsed: 80.93 min
+Batch:30/90 | Epoch: 22/30 | Cost: 0.0177 | Time elapsed: 80.97 min
+Batch:40/90 | Epoch: 22/30 | Cost: 0.0168 | Time elapsed: 81.01 min
+Batch:50/90 | Epoch: 22/30 | Cost: 0.0197 | Time elapsed: 81.05 min
+Batch:60/90 | Epoch: 22/30 | Cost: 0.0179 | Time elapsed: 81.09 min
+Batch:70/90 | Epoch: 22/30 | Cost: 0.0199 | Time elapsed: 81.14 min
+Batch:80/90 | Epoch: 22/30 | Cost: 0.0173 | Time elapsed: 81.18 min
+Evaluation for epoch 22:Test
+"Hits: 3486(49.76) | >=6: 5411(77.24) | >=5: 6282(89.68) | Total examples: 7005"Train
+"Hits: 9523(83.14) | >=6: 10715(93.55) | >=5: 11114(97.03) | Total examples: 11454"Batch:0/90 | Epoch: 23/30 | Cost: 0.0204 | Time elapsed: 81.65 min
+Batch:10/90 | Epoch: 23/30 | Cost: 0.0185 | Time elapsed: 81.69 min
+Batch:20/90 | Epoch: 23/30 | Cost: 0.0174 | Time elapsed: 81.73 min
+Batch:30/90 | Epoch: 23/30 | Cost: 0.0198 | Time elapsed: 81.77 min
+Batch:40/90 | Epoch: 23/30 | Cost: 0.0191 | Time elapsed: 81.81 min
+Batch:50/90 | Epoch: 23/30 | Cost: 0.0206 | Time elapsed: 81.85 min
+Batch:60/90 | Epoch: 23/30 | Cost: 0.0204 | Time elapsed: 81.89 min
+Batch:70/90 | Epoch: 23/30 | Cost: 0.0170 | Time elapsed: 81.93 min
+Batch:80/90 | Epoch: 23/30 | Cost: 0.0170 | Time elapsed: 81.97 min
+Evaluation for epoch 23:Test
+"Hits: 3508(50.08) | >=6: 5438(77.63) | >=5: 6303(89.98) | Total examples: 7005"Train
+"Hits: 9625(84.03) | >=6: 10758(93.92) | >=5: 11133(97.20) | Total examples: 11454"Batch:0/90 | Epoch: 24/30 | Cost: 0.0176 | Time elapsed: 82.44 min
+Batch:10/90 | Epoch: 24/30 | Cost: 0.0184 | Time elapsed: 82.48 min
+Batch:20/90 | Epoch: 24/30 | Cost: 0.0199 | Time elapsed: 82.52 min
+Batch:30/90 | Epoch: 24/30 | Cost: 0.0162 | Time elapsed: 82.56 min
+Batch:40/90 | Epoch: 24/30 | Cost: 0.0189 | Time elapsed: 82.60 min
+Batch:50/90 | Epoch: 24/30 | Cost: 0.0187 | Time elapsed: 82.64 min
+Batch:60/90 | Epoch: 24/30 | Cost: 0.0161 | Time elapsed: 82.68 min
+Batch:70/90 | Epoch: 24/30 | Cost: 0.0171 | Time elapsed: 82.73 min
+Batch:80/90 | Epoch: 24/30 | Cost: 0.0175 | Time elapsed: 82.77 min
+Evaluation for epoch 24:Test
+"Hits: 3538(50.51) | >=6: 5481(78.24) | >=5: 6309(90.06) | Total examples: 7005"Train
+"Hits: 9709(84.77) | >=6: 10809(94.37) | >=5: 11151(97.35) | Total examples: 11454"Batch:0/90 | Epoch: 25/30 | Cost: 0.0161 | Time elapsed: 84.21 min
+Batch:10/90 | Epoch: 25/30 | Cost: 0.0185 | Time elapsed: 84.63 min
+Batch:20/90 | Epoch: 25/30 | Cost: 0.0183 | Time elapsed: 85.04 min
+Batch:30/90 | Epoch: 25/30 | Cost: 0.0187 | Time elapsed: 85.47 min
+Batch:40/90 | Epoch: 25/30 | Cost: 0.0204 | Time elapsed: 85.90 min
+Batch:50/90 | Epoch: 25/30 | Cost: 0.0164 | Time elapsed: 86.32 min
+Batch:60/90 | Epoch: 25/30 | Cost: 0.0172 | Time elapsed: 86.76 min
+Batch:70/90 | Epoch: 25/30 | Cost: 0.0178 | Time elapsed: 87.18 min
+Batch:80/90 | Epoch: 25/30 | Cost: 0.0165 | Time elapsed: 87.57 min
+Evaluation for epoch 25:Test
+"Hits: 3567(50.92) | >=6: 5497(78.47) | >=5: 6322(90.25) | Total examples: 7005"Train
+"Hits: 9790(85.47) | >=6: 10854(94.76) | >=5: 11170(97.52) | Total examples: 11454"Batch:0/90 | Epoch: 26/30 | Cost: 0.0186 | Time elapsed: 90.37 min
+Batch:10/90 | Epoch: 26/30 | Cost: 0.0187 | Time elapsed: 90.52 min
+Batch:20/90 | Epoch: 26/30 | Cost: 0.0173 | Time elapsed: 90.69 min
+Batch:30/90 | Epoch: 26/30 | Cost: 0.0193 | Time elapsed: 90.85 min
+Batch:40/90 | Epoch: 26/30 | Cost: 0.0163 | Time elapsed: 91.02 min
+Batch:50/90 | Epoch: 26/30 | Cost: 0.0178 | Time elapsed: 91.22 min
+Batch:60/90 | Epoch: 26/30 | Cost: 0.0157 | Time elapsed: 91.59 min
+Batch:70/90 | Epoch: 26/30 | Cost: 0.0174 | Time elapsed: 91.95 min
+Batch:80/90 | Epoch: 26/30 | Cost: 0.0170 | Time elapsed: 92.32 min
+Evaluation for epoch 26:Test
+"Hits: 3595(51.32) | >=6: 5525(78.87) | >=5: 6330(90.36) | Total examples: 7005"Train
+"Hits: 9875(86.21) | >=6: 10889(95.07) | >=5: 11182(97.63) | Total examples: 11454"Batch:0/90 | Epoch: 27/30 | Cost: 0.0164 | Time elapsed: 94.97 min
+Batch:10/90 | Epoch: 27/30 | Cost: 0.0162 | Time elapsed: 95.04 min
+Batch:20/90 | Epoch: 27/30 | Cost: 0.0166 | Time elapsed: 95.12 min
+Batch:30/90 | Epoch: 27/30 | Cost: 0.0161 | Time elapsed: 95.20 min
+Batch:40/90 | Epoch: 27/30 | Cost: 0.0162 | Time elapsed: 95.25 min
+Batch:50/90 | Epoch: 27/30 | Cost: 0.0168 | Time elapsed: 95.30 min
+Batch:60/90 | Epoch: 27/30 | Cost: 0.0175 | Time elapsed: 95.34 min
+Batch:70/90 | Epoch: 27/30 | Cost: 0.0185 | Time elapsed: 95.39 min
+Batch:80/90 | Epoch: 27/30 | Cost: 0.0175 | Time elapsed: 95.44 min
+Evaluation for epoch 27:Test
+"Hits: 3629(51.81) | >=6: 5547(79.19) | >=5: 6339(90.49) | Total examples: 7005"Train
+"Hits: 9965(87.00) | >=6: 10920(95.34) | >=5: 11203(97.81) | Total examples: 11454"Batch:0/90 | Epoch: 28/30 | Cost: 0.0175 | Time elapsed: 96.36 min
+Batch:10/90 | Epoch: 28/30 | Cost: 0.0164 | Time elapsed: 96.43 min
+Batch:20/90 | Epoch: 28/30 | Cost: 0.0182 | Time elapsed: 96.51 min
+Batch:30/90 | Epoch: 28/30 | Cost: 0.0153 | Time elapsed: 96.58 min
+Batch:40/90 | Epoch: 28/30 | Cost: 0.0163 | Time elapsed: 96.66 min
+Batch:50/90 | Epoch: 28/30 | Cost: 0.0150 | Time elapsed: 96.72 min
+Batch:60/90 | Epoch: 28/30 | Cost: 0.0139 | Time elapsed: 96.77 min
+Batch:70/90 | Epoch: 28/30 | Cost: 0.0166 | Time elapsed: 96.82 min
+Batch:80/90 | Epoch: 28/30 | Cost: 0.0178 | Time elapsed: 96.87 min
+Evaluation for epoch 28:Test
+"Hits: 3650(52.11) | >=6: 5555(79.30) | >=5: 6355(90.72) | Total examples: 7005"Train
+"Hits: 10033(87.59) | >=6: 10953(95.63) | >=5: 11226(98.01) | Total examples: 11454"Batch:0/90 | Epoch: 29/30 | Cost: 0.0153 | Time elapsed: 97.35 min
+Batch:10/90 | Epoch: 29/30 | Cost: 0.0176 | Time elapsed: 97.39 min
+Batch:20/90 | Epoch: 29/30 | Cost: 0.0151 | Time elapsed: 97.43 min
+Batch:30/90 | Epoch: 29/30 | Cost: 0.0166 | Time elapsed: 97.47 min
+Batch:40/90 | Epoch: 29/30 | Cost: 0.0161 | Time elapsed: 97.51 min
+Batch:50/90 | Epoch: 29/30 | Cost: 0.0172 | Time elapsed: 97.55 min
+Batch:60/90 | Epoch: 29/30 | Cost: 0.0163 | Time elapsed: 97.59 min
+Batch:70/90 | Epoch: 29/30 | Cost: 0.0157 | Time elapsed: 97.63 min
+Batch:80/90 | Epoch: 29/30 | Cost: 0.0172 | Time elapsed: 97.67 min
+Evaluation for epoch 29:Test
+"Hits: 3672(52.42) | >=6: 5573(79.56) | >=5: 6362(90.82) | Total examples: 7005"Train
+"Hits: 10095(88.14) | >=6: 10975(95.82) | >=5: 11239(98.12) | Total examples: 11454"
+Batch:0/90 | Epoch: 3/30 | Cost: 0.0113 | Time elapsed: 0.03 min
+Batch:10/90 | Epoch: 0/30 | Cost: 0.0112 | Time elapsed: 0.29 min
+Batch:20/90 | Epoch: 0/30 | Cost: 0.0135 | Time elapsed: 0.54 min
+Batch:30/90 | Epoch: 0/30 | Cost: 0.0141 | Time elapsed: 0.81 min
+Batch:40/90 | Epoch: 0/30 | Cost: 0.0131 | Time elapsed: 1.08 min
+Batch:50/90 | Epoch: 0/30 | Cost: 0.0129 | Time elapsed: 1.35 min
+Batch:60/90 | Epoch: 0/30 | Cost: 0.0132 | Time elapsed: 1.60 min
+Batch:70/90 | Epoch: 0/30 | Cost: 0.0129 | Time elapsed: 1.86 min
+Batch:80/90 | Epoch: 0/30 | Cost: 0.0122 | Time elapsed: 2.11 min
+Evaluation for epoch 30:Test
+"Hits: 1615(23.05) | >=6: 3736(53.33) | >=5: 5277(75.33) | Total examples: 7005"Train
+"Hits: 10229(89.31) | >=6: 10971(95.78) | >=5: 11228(98.03) | Total examples: 11454"Batch:0/90 | Epoch: 1/30 | Cost: 0.0129 | Time elapsed: 3.70 min
+Batch:10/90 | Epoch: 1/30 | Cost: 0.0110 | Time elapsed: 3.78 min
+Batch:20/90 | Epoch: 1/30 | Cost: 0.0126 | Time elapsed: 3.86 min
+Batch:30/90 | Epoch: 1/30 | Cost: 0.0095 | Time elapsed: 3.94 min
+Batch:40/90 | Epoch: 1/30 | Cost: 0.0164 | Time elapsed: 4.02 min
+Batch:50/90 | Epoch: 1/30 | Cost: 0.0140 | Time elapsed: 4.11 min
+Batch:60/90 | Epoch: 1/30 | Cost: 0.0114 | Time elapsed: 4.20 min
+Batch:70/90 | Epoch: 1/30 | Cost: 0.0114 | Time elapsed: 4.28 min
+Batch:80/90 | Epoch: 1/30 | Cost: 0.0103 | Time elapsed: 4.37 min
+Evaluation for epoch 31:Test
+"Hits: 1637(23.37) | >=6: 3776(53.90) | >=5: 5316(75.89) | Total examples: 7005"Train
+"Hits: 10335(90.23) | >=6: 11016(96.18) | >=5: 11249(98.21) | Total examples: 11454"Batch:0/90 | Epoch: 2/30 | Cost: 0.0104 | Time elapsed: 4.92 min
+Batch:10/90 | Epoch: 2/30 | Cost: 0.0126 | Time elapsed: 4.99 min
+Batch:20/90 | Epoch: 2/30 | Cost: 0.0129 | Time elapsed: 5.07 min
+Batch:30/90 | Epoch: 2/30 | Cost: 0.0111 | Time elapsed: 5.15 min
+Batch:40/90 | Epoch: 2/30 | Cost: 0.0110 | Time elapsed: 5.24 min
+Batch:50/90 | Epoch: 2/30 | Cost: 0.0100 | Time elapsed: 5.32 min
+Batch:60/90 | Epoch: 2/30 | Cost: 0.0113 | Time elapsed: 5.41 min
+Batch:70/90 | Epoch: 2/30 | Cost: 0.0136 | Time elapsed: 5.49 min
+Batch:80/90 | Epoch: 2/30 | Cost: 0.0114 | Time elapsed: 5.57 min
+Evaluation for epoch 32:Test
+"Hits: 1648(23.53) | >=6: 3779(53.95) | >=5: 5327(76.05) | Total examples: 7005"Train
+"Hits: 10435(91.10) | >=6: 11057(96.53) | >=5: 11276(98.45) | Total examples: 11454"Batch:0/90 | Epoch: 3/30 | Cost: 0.0126 | Time elapsed: 6.12 min
+Batch:10/90 | Epoch: 3/30 | Cost: 0.0121 | Time elapsed: 6.20 min
+Batch:20/90 | Epoch: 3/30 | Cost: 0.0134 | Time elapsed: 6.28 min
+Batch:30/90 | Epoch: 3/30 | Cost: 0.0105 | Time elapsed: 6.37 min
+Batch:40/90 | Epoch: 3/30 | Cost: 0.0092 | Time elapsed: 6.45 min
+Batch:50/90 | Epoch: 3/30 | Cost: 0.0112 | Time elapsed: 6.53 min
+Batch:60/90 | Epoch: 3/30 | Cost: 0.0113 | Time elapsed: 6.62 min
+Batch:70/90 | Epoch: 3/30 | Cost: 0.0094 | Time elapsed: 6.70 min
+Batch:80/90 | Epoch: 3/30 | Cost: 0.0111 | Time elapsed: 6.79 min
+Evaluation for epoch 33:Test
+"Hits: 1678(23.95) | >=6: 3818(54.50) | >=5: 5345(76.30) | Total examples: 7005"Train
+"Hits: 10524(91.88) | >=6: 11094(96.86) | >=5: 11302(98.67) | Total examples: 11454"Batch:0/90 | Epoch: 4/30 | Cost: 0.0103 | Time elapsed: 7.35 min
+Batch:10/90 | Epoch: 4/30 | Cost: 0.0105 | Time elapsed: 7.43 min
+Batch:20/90 | Epoch: 4/30 | Cost: 0.0108 | Time elapsed: 7.51 min
+Batch:30/90 | Epoch: 4/30 | Cost: 0.0114 | Time elapsed: 7.59 min
+Batch:40/90 | Epoch: 4/30 | Cost: 0.0112 | Time elapsed: 7.68 min
+Batch:50/90 | Epoch: 4/30 | Cost: 0.0093 | Time elapsed: 7.77 min
+Batch:60/90 | Epoch: 4/30 | Cost: 0.0090 | Time elapsed: 7.85 min
+Batch:70/90 | Epoch: 4/30 | Cost: 0.0105 | Time elapsed: 7.94 min
+Batch:80/90 | Epoch: 4/30 | Cost: 0.0123 | Time elapsed: 8.02 min
+Evaluation for epoch 34:Test
+"Hits: 1666(23.78) | >=6: 3842(54.85) | >=5: 5352(76.40) | Total examples: 7005"Train
+"Hits: 10587(92.43) | >=6: 11119(97.08) | >=5: 11322(98.85) | Total examples: 11454"Batch:0/90 | Epoch: 5/30 | Cost: 0.0093 | Time elapsed: 8.59 min
+Batch:10/90 | Epoch: 5/30 | Cost: 0.0106 | Time elapsed: 8.68 min
+Batch:20/90 | Epoch: 5/30 | Cost: 0.0090 | Time elapsed: 8.76 min
+Batch:30/90 | Epoch: 5/30 | Cost: 0.0105 | Time elapsed: 8.84 min
+Batch:40/90 | Epoch: 5/30 | Cost: 0.0111 | Time elapsed: 8.93 min
+Batch:50/90 | Epoch: 5/30 | Cost: 0.0093 | Time elapsed: 9.01 min
+Batch:60/90 | Epoch: 5/30 | Cost: 0.0109 | Time elapsed: 9.10 min
+Batch:70/90 | Epoch: 5/30 | Cost: 0.0103 | Time elapsed: 9.19 min
+Batch:80/90 | Epoch: 5/30 | Cost: 0.0094 | Time elapsed: 9.27 min
+Evaluation for epoch 35:Test
+"Hits: 1687(24.08) | >=6: 3872(55.27) | >=5: 5372(76.69) | Total examples: 7005"Train
+"Hits: 10650(92.98) | >=6: 11142(97.28) | >=5: 11332(98.93) | Total examples: 11454"Batch:0/90 | Epoch: 6/30 | Cost: 0.0088 | Time elapsed: 9.82 min
+Batch:10/90 | Epoch: 6/30 | Cost: 0.0098 | Time elapsed: 9.91 min
+Batch:20/90 | Epoch: 6/30 | Cost: 0.0117 | Time elapsed: 9.99 min
+Batch:30/90 | Epoch: 6/30 | Cost: 0.0116 | Time elapsed: 10.07 min
+Batch:40/90 | Epoch: 6/30 | Cost: 0.0074 | Time elapsed: 10.15 min
+Batch:50/90 | Epoch: 6/30 | Cost: 0.0088 | Time elapsed: 10.24 min
+Batch:60/90 | Epoch: 6/30 | Cost: 0.0067 | Time elapsed: 10.32 min
+Batch:70/90 | Epoch: 6/30 | Cost: 0.0097 | Time elapsed: 10.41 min
+Batch:80/90 | Epoch: 6/30 | Cost: 0.0102 | Time elapsed: 10.49 min
+Evaluation for epoch 36:Test
+"Hits: 1695(24.20) | >=6: 3883(55.43) | >=5: 5372(76.69) | Total examples: 7005"Train
+"Hits: 10715(93.55) | >=6: 11174(97.56) | >=5: 11348(99.07) | Total examples: 11454"Batch:0/90 | Epoch: 7/30 | Cost: 0.0082 | Time elapsed: 11.07 min
+Batch:10/90 | Epoch: 7/30 | Cost: 0.0091 | Time elapsed: 11.31 min
+Batch:20/90 | Epoch: 7/30 | Cost: 0.0081 | Time elapsed: 11.56 min
+Batch:30/90 | Epoch: 7/30 | Cost: 0.0080 | Time elapsed: 11.80 min
+Batch:40/90 | Epoch: 7/30 | Cost: 0.0088 | Time elapsed: 12.03 min
+Batch:50/90 | Epoch: 7/30 | Cost: 0.0090 | Time elapsed: 12.26 min
+Batch:60/90 | Epoch: 7/30 | Cost: 0.0087 | Time elapsed: 12.48 min
+Batch:70/90 | Epoch: 7/30 | Cost: 0.0105 | Time elapsed: 12.71 min
+Batch:80/90 | Epoch: 7/30 | Cost: 0.0085 | Time elapsed: 12.91 min
+Evaluation for epoch 37:Test
+"Hits: 1708(24.38) | >=6: 3912(55.85) | >=5: 5391(76.96) | Total examples: 7005"Train
+"Hits: 10768(94.01) | >=6: 11200(97.78) | >=5: 11361(99.19) | Total examples: 11454"Batch:0/90 | Epoch: 8/30 | Cost: 0.0066 | Time elapsed: 13.61 min
+Batch:10/90 | Epoch: 8/30 | Cost: 0.0081 | Time elapsed: 13.69 min
+Batch:20/90 | Epoch: 8/30 | Cost: 0.0090 | Time elapsed: 13.78 min
+Batch:30/90 | Epoch: 8/30 | Cost: 0.0077 | Time elapsed: 13.87 min
+Batch:40/90 | Epoch: 8/30 | Cost: 0.0094 | Time elapsed: 13.95 min
+Batch:50/90 | Epoch: 8/30 | Cost: 0.0074 | Time elapsed: 14.04 min
+Batch:60/90 | Epoch: 8/30 | Cost: 0.0116 | Time elapsed: 14.13 min
+Batch:70/90 | Epoch: 8/30 | Cost: 0.0094 | Time elapsed: 14.21 min
+Batch:80/90 | Epoch: 8/30 | Cost: 0.0086 | Time elapsed: 14.30 min
+Evaluation for epoch 38:Test
+"Hits: 1724(24.61) | >=6: 3938(56.22) | >=5: 5422(77.40) | Total examples: 7005"Train
+"Hits: 10836(94.60) | >=6: 11231(98.05) | >=5: 11372(99.28) | Total examples: 11454"Batch:0/90 | Epoch: 9/30 | Cost: 0.0094 | Time elapsed: 14.85 min
+Batch:10/90 | Epoch: 9/30 | Cost: 0.0075 | Time elapsed: 14.93 min
+Batch:20/90 | Epoch: 9/30 | Cost: 0.0070 | Time elapsed: 15.01 min
+Batch:30/90 | Epoch: 9/30 | Cost: 0.0084 | Time elapsed: 15.09 min
+Batch:40/90 | Epoch: 9/30 | Cost: 0.0080 | Time elapsed: 15.18 min
+Batch:50/90 | Epoch: 9/30 | Cost: 0.0088 | Time elapsed: 15.27 min
+Batch:60/90 | Epoch: 9/30 | Cost: 0.0098 | Time elapsed: 15.35 min
+Batch:70/90 | Epoch: 9/30 | Cost: 0.0090 | Time elapsed: 15.44 min
+Batch:80/90 | Epoch: 9/30 | Cost: 0.0087 | Time elapsed: 15.52 min
+Evaluation for epoch 39:Test
+"Hits: 1753(25.02) | >=6: 3948(56.36) | >=5: 5420(77.37) | Total examples: 7005"Train
+"Hits: 10890(95.08) | >=6: 11256(98.27) | >=5: 11381(99.36) | Total examples: 11454"Batch:0/90 | Epoch: 10/30 | Cost: 0.0066 | Time elapsed: 16.08 min
+Batch:10/90 | Epoch: 10/30 | Cost: 0.0082 | Time elapsed: 16.17 min
+Batch:20/90 | Epoch: 10/30 | Cost: 0.0079 | Time elapsed: 16.25 min
+Batch:30/90 | Epoch: 10/30 | Cost: 0.0083 | Time elapsed: 16.33 min
+Batch:40/90 | Epoch: 10/30 | Cost: 0.0079 | Time elapsed: 16.42 min
+Batch:50/90 | Epoch: 10/30 | Cost: 0.0097 | Time elapsed: 16.51 min
+Batch:60/90 | Epoch: 10/30 | Cost: 0.0065 | Time elapsed: 16.60 min
+Batch:70/90 | Epoch: 10/30 | Cost: 0.0066 | Time elapsed: 16.69 min
+Batch:80/90 | Epoch: 10/30 | Cost: 0.0074 | Time elapsed: 16.78 min
+Evaluation for epoch 40:Test
+"Hits: 1769(25.25) | >=6: 3966(56.62) | >=5: 5431(77.53) | Total examples: 7005"Train
+"Hits: 10926(95.39) | >=6: 11270(98.39) | >=5: 11393(99.47) | Total examples: 11454"Batch:0/90 | Epoch: 11/30 | Cost: 0.0095 | Time elapsed: 17.37 min
+Batch:10/90 | Epoch: 11/30 | Cost: 0.0071 | Time elapsed: 17.45 min
+Batch:20/90 | Epoch: 11/30 | Cost: 0.0079 | Time elapsed: 17.53 min
+Batch:30/90 | Epoch: 11/30 | Cost: 0.0063 | Time elapsed: 17.62 min
+Batch:40/90 | Epoch: 11/30 | Cost: 0.0071 | Time elapsed: 17.70 min
+Batch:50/90 | Epoch: 11/30 | Cost: 0.0066 | Time elapsed: 17.79 min
+Batch:60/90 | Epoch: 11/30 | Cost: 0.0072 | Time elapsed: 17.88 min
+Batch:70/90 | Epoch: 11/30 | Cost: 0.0073 | Time elapsed: 17.97 min
+Batch:80/90 | Epoch: 11/30 | Cost: 0.0069 | Time elapsed: 18.06 min
+Evaluation for epoch 41:Test
+"Hits: 1770(25.27) | >=6: 3990(56.96) | >=5: 5448(77.77) | Total examples: 7005"Train
+"Hits: 10963(95.71) | >=6: 11291(98.58) | >=5: 11400(99.53) | Total examples: 11454"Batch:0/90 | Epoch: 12/30 | Cost: 0.0075 | Time elapsed: 18.63 min
+Batch:10/90 | Epoch: 12/30 | Cost: 0.0065 | Time elapsed: 18.71 min
+Batch:20/90 | Epoch: 12/30 | Cost: 0.0055 | Time elapsed: 18.79 min
+Batch:30/90 | Epoch: 12/30 | Cost: 0.0071 | Time elapsed: 18.87 min
+Batch:40/90 | Epoch: 12/30 | Cost: 0.0073 | Time elapsed: 18.96 min
+Batch:50/90 | Epoch: 12/30 | Cost: 0.0078 | Time elapsed: 19.05 min
+Batch:60/90 | Epoch: 12/30 | Cost: 0.0056 | Time elapsed: 19.13 min
+Batch:70/90 | Epoch: 12/30 | Cost: 0.0073 | Time elapsed: 19.22 min
+Batch:80/90 | Epoch: 12/30 | Cost: 0.0071 | Time elapsed: 19.31 min
+Evaluation for epoch 42:Test
+"Hits: 1787(25.51) | >=6: 4004(57.16) | >=5: 5456(77.89) | Total examples: 7005"Train
+"Hits: 11016(96.18) | >=6: 11309(98.73) | >=5: 11403(99.55) | Total examples: 11454"Batch:0/90 | Epoch: 13/30 | Cost: 0.0065 | Time elapsed: 19.86 min
+Batch:10/90 | Epoch: 13/30 | Cost: 0.0065 | Time elapsed: 19.95 min
+Batch:20/90 | Epoch: 13/30 | Cost: 0.0056 | Time elapsed: 20.03 min
+Batch:30/90 | Epoch: 13/30 | Cost: 0.0090 | Time elapsed: 20.11 min
+Batch:40/90 | Epoch: 13/30 | Cost: 0.0077 | Time elapsed: 20.20 min
+Batch:50/90 | Epoch: 13/30 | Cost: 0.0074 | Time elapsed: 20.29 min
+Batch:60/90 | Epoch: 13/30 | Cost: 0.0071 | Time elapsed: 20.38 min
+Batch:70/90 | Epoch: 13/30 | Cost: 0.0058 | Time elapsed: 20.47 min
+Batch:80/90 | Epoch: 13/30 | Cost: 0.0074 | Time elapsed: 20.56 min
+Evaluation for epoch 43:Test
+"Hits: 1797(25.65) | >=6: 4032(57.56) | >=5: 5465(78.02) | Total examples: 7005"Train
+"Hits: 11041(96.39) | >=6: 11320(98.83) | >=5: 11410(99.62) | Total examples: 11454"Batch:0/90 | Epoch: 14/30 | Cost: 0.0075 | Time elapsed: 21.16 min
+Batch:10/90 | Epoch: 14/30 | Cost: 0.0068 | Time elapsed: 21.24 min
+Batch:20/90 | Epoch: 14/30 | Cost: 0.0063 | Time elapsed: 21.33 min
+Batch:30/90 | Epoch: 14/30 | Cost: 0.0069 | Time elapsed: 21.41 min
+Batch:40/90 | Epoch: 14/30 | Cost: 0.0068 | Time elapsed: 21.50 min
+Batch:50/90 | Epoch: 14/30 | Cost: 0.0080 | Time elapsed: 21.59 min
+Batch:60/90 | Epoch: 14/30 | Cost: 0.0059 | Time elapsed: 21.69 min
+Batch:70/90 | Epoch: 14/30 | Cost: 0.0076 | Time elapsed: 21.78 min
+Batch:80/90 | Epoch: 14/30 | Cost: 0.0079 | Time elapsed: 21.87 min
+Evaluation for epoch 44:Test
+"Hits: 1801(25.71) | >=6: 4043(57.72) | >=5: 5489(78.36) | Total examples: 7005"Train
+"Hits: 11075(96.69) | >=6: 11330(98.92) | >=5: 11414(99.65) | Total examples: 11454"Batch:0/90 | Epoch: 15/30 | Cost: 0.0062 | Time elapsed: 22.48 min
+Batch:10/90 | Epoch: 15/30 | Cost: 0.0053 | Time elapsed: 22.56 min
+Batch:20/90 | Epoch: 15/30 | Cost: 0.0066 | Time elapsed: 22.65 min
+Batch:30/90 | Epoch: 15/30 | Cost: 0.0064 | Time elapsed: 22.73 min
+Batch:40/90 | Epoch: 15/30 | Cost: 0.0069 | Time elapsed: 22.82 min
+Batch:50/90 | Epoch: 15/30 | Cost: 0.0082 | Time elapsed: 22.90 min
+Batch:60/90 | Epoch: 15/30 | Cost: 0.0071 | Time elapsed: 22.99 min
+Batch:70/90 | Epoch: 15/30 | Cost: 0.0073 | Time elapsed: 23.08 min
+Batch:80/90 | Epoch: 15/30 | Cost: 0.0077 | Time elapsed: 23.17 min
+Evaluation for epoch 45:Test
+"Hits: 1810(25.84) | >=6: 4055(57.89) | >=5: 5501(78.53) | Total examples: 7005"Train
+"Hits: 11105(96.95) | >=6: 11339(99.00) | >=5: 11420(99.70) | Total examples: 11454"Batch:0/90 | Epoch: 16/30 | Cost: 0.0069 | Time elapsed: 23.76 min
+Batch:10/90 | Epoch: 16/30 | Cost: 0.0058 | Time elapsed: 24.02 min
+Batch:20/90 | Epoch: 16/30 | Cost: 0.0073 | Time elapsed: 24.26 min
+Batch:30/90 | Epoch: 16/30 | Cost: 0.0071 | Time elapsed: 24.50 min
+Batch:40/90 | Epoch: 16/30 | Cost: 0.0068 | Time elapsed: 24.77 min
+Batch:50/90 | Epoch: 16/30 | Cost: 0.0074 | Time elapsed: 25.02 min
+Batch:60/90 | Epoch: 16/30 | Cost: 0.0068 | Time elapsed: 25.26 min
+Batch:70/90 | Epoch: 16/30 | Cost: 0.0051 | Time elapsed: 25.52 min
+Batch:80/90 | Epoch: 16/30 | Cost: 0.0077 | Time elapsed: 25.76 min
+Evaluation for epoch 46:Test
+"Hits: 1814(25.90) | >=6: 4079(58.23) | >=5: 5496(78.46) | Total examples: 7005"Train
+"Hits: 11134(97.21) | >=6: 11356(99.14) | >=5: 11426(99.76) | Total examples: 11454"Batch:0/90 | Epoch: 17/30 | Cost: 0.0057 | Time elapsed: 27.07 min
+Batch:10/90 | Epoch: 17/30 | Cost: 0.0055 | Time elapsed: 27.33 min
+Batch:20/90 | Epoch: 17/30 | Cost: 0.0086 | Time elapsed: 27.59 min
+Batch:30/90 | Epoch: 17/30 | Cost: 0.0054 | Time elapsed: 27.87 min
+Batch:40/90 | Epoch: 17/30 | Cost: 0.0061 | Time elapsed: 28.12 min
+Batch:50/90 | Epoch: 17/30 | Cost: 0.0066 | Time elapsed: 28.40 min
+Batch:60/90 | Epoch: 17/30 | Cost: 0.0050 | Time elapsed: 28.66 min
+Batch:70/90 | Epoch: 17/30 | Cost: 0.0061 | Time elapsed: 28.94 min
+Batch:80/90 | Epoch: 17/30 | Cost: 0.0059 | Time elapsed: 29.20 min
+Evaluation for epoch 47:Test
+"Hits: 1817(25.94) | >=6: 4077(58.20) | >=5: 5500(78.52) | Total examples: 7005"Train
+"Hits: 11169(97.51) | >=6: 11367(99.24) | >=5: 11431(99.80) | Total examples: 11454"Batch:0/90 | Epoch: 18/30 | Cost: 0.0066 | Time elapsed: 31.58 min
+Batch:10/90 | Epoch: 18/30 | Cost: 0.0052 | Time elapsed: 31.88 min
+Batch:20/90 | Epoch: 18/30 | Cost: 0.0069 | Time elapsed: 32.21 min
+Batch:30/90 | Epoch: 18/30 | Cost: 0.0062 | Time elapsed: 32.48 min
+Batch:40/90 | Epoch: 18/30 | Cost: 0.0052 | Time elapsed: 32.74 min
+Batch:50/90 | Epoch: 18/30 | Cost: 0.0058 | Time elapsed: 32.99 min
+Batch:60/90 | Epoch: 18/30 | Cost: 0.0068 | Time elapsed: 33.30 min
+Batch:70/90 | Epoch: 18/30 | Cost: 0.0045 | Time elapsed: 33.57 min
+Batch:80/90 | Epoch: 18/30 | Cost: 0.0061 | Time elapsed: 33.84 min
+Evaluation for epoch 48:Test
+"Hits: 1837(26.22) | >=6: 4080(58.24) | >=5: 5513(78.70) | Total examples: 7005"Train
+"Hits: 11190(97.70) | >=6: 11375(99.31) | >=5: 11435(99.83) | Total examples: 11454"Batch:0/90 | Epoch: 19/30 | Cost: 0.0061 | Time elapsed: 36.46 min
+Batch:10/90 | Epoch: 19/30 | Cost: 0.0049 | Time elapsed: 36.54 min
+Batch:20/90 | Epoch: 19/30 | Cost: 0.0065 | Time elapsed: 36.63 min
+Batch:30/90 | Epoch: 19/30 | Cost: 0.0055 | Time elapsed: 36.71 min
+Batch:40/90 | Epoch: 19/30 | Cost: 0.0054 | Time elapsed: 36.80 min
+Batch:50/90 | Epoch: 19/30 | Cost: 0.0069 | Time elapsed: 36.89 min
+Batch:60/90 | Epoch: 19/30 | Cost: 0.0065 | Time elapsed: 36.98 min
+Batch:70/90 | Epoch: 19/30 | Cost: 0.0059 | Time elapsed: 37.07 min
+Batch:80/90 | Epoch: 19/30 | Cost: 0.0047 | Time elapsed: 37.16 min
+Evaluation for epoch 49:Test
+"Hits: 1847(26.37) | >=6: 4112(58.70) | >=5: 5535(79.01) | Total examples: 7005"Train
+"Hits: 11220(97.96) | >=6: 11379(99.35) | >=5: 11438(99.86) | Total examples: 11454"Batch:0/90 | Epoch: 20/30 | Cost: 0.0048 | Time elapsed: 37.72 min
+Batch:10/90 | Epoch: 20/30 | Cost: 0.0065 | Time elapsed: 37.80 min
+Batch:20/90 | Epoch: 20/30 | Cost: 0.0057 | Time elapsed: 37.89 min
+Batch:30/90 | Epoch: 20/30 | Cost: 0.0058 | Time elapsed: 37.97 min
+Batch:40/90 | Epoch: 20/30 | Cost: 0.0052 | Time elapsed: 38.05 min
+Batch:50/90 | Epoch: 20/30 | Cost: 0.0049 | Time elapsed: 38.14 min
+Batch:60/90 | Epoch: 20/30 | Cost: 0.0048 | Time elapsed: 38.23 min
+Batch:70/90 | Epoch: 20/30 | Cost: 0.0065 | Time elapsed: 38.32 min
+Batch:80/90 | Epoch: 20/30 | Cost: 0.0061 | Time elapsed: 38.41 min
+Evaluation for epoch 50:Test
+"Hits: 1858(26.52) | >=6: 4110(58.67) | >=5: 5545(79.16) | Total examples: 7005"Train
+"Hits: 11242(98.15) | >=6: 11389(99.43) | >=5: 11440(99.88) | Total examples: 11454"Batch:0/90 | Epoch: 21/30 | Cost: 0.0044 | Time elapsed: 38.97 min
