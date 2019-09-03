@@ -69,6 +69,7 @@ print('All done! Starting ALPR system...')
 
 try:
 	if not READ_ONLY:
+		print(INPUT_IMG)
 		frame = cv2.imread(INPUT_IMG)
 		 # Plate detection
 		yolo_frame = frame.copy()
@@ -90,8 +91,8 @@ try:
 	word = plate_reader.predict(pil_plate)
 	print('Found plate: {}'.format(word))
 	if(OUTPUT and not READ_ONLY):
-		frame = cv2.rectangle(frame, (x1-PADDING,y1-PADDING), (x2+PADDING,y2+PADDING), (255,255,0),thickness=2)
-		frame = cv2.putText(frame,word,(x1-2,y1-2), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,255,255),1)
+		frame = cv2.rectangle(frame, (x1-PADDING,y1-PADDING), (x2+PADDING,y2+PADDING), (0,255,255),thickness=2)
+		frame = cv2.putText(frame,word,(x1-2,y1-2), cv2.FONT_HERSHEY_SIMPLEX, 1,(0,255,255),2)
 		outpath = os.path.join(OUTPUT,word+'.jpg')
 		cv2.imwrite(outpath, frame)
 
