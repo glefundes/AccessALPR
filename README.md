@@ -60,8 +60,8 @@ $ python3 http_stream.py
 
 <a name="implementation"></a>
 #### Implementation details:
-The weights for the plate detector and plate reader can be downloaded here: [], and their paths should be respectively `detector/weights/ckpt_0.pth` and 
-`reader/weights/model-50.pth`.
+The weights for the plate detector and plate reader can be downloaded here: [Google Drive](https://drive.google.com/open?id=1KvIcIMOZ0o9xeW6_Q037Lo8S5bfWUrfz), and their paths should be respectively `detector/weights/detector-w.pth` and 
+`reader/weights/reader-w.pth`.
 Due to the proprietary nature of the datasets used, I'm not at liberty to release them for usage.
 
 ##### Plate Detector
@@ -73,7 +73,7 @@ Unlike most ALPR systems, we don't use a character segmentation stage prior to r
 We employ an Efficient-Net B0 backbone to extract 252 features from an input image, and then parse that into 7 sets of 36 probabilities. The maximum of each of the 7 is the output letter guessed by the network. This is also very efficient, taking an average of 16ms per prediction (counting the majority vote overhead). Implementation details can be seen on the `reader/PlateReader.py` file.
 ![CNN](sample/cnn.png)
 
-This approach is arguably less accurate than systems with very accurate segmentation steps on high resolution images, but for our specific applications we achieve competitive results by infering on multiple sequential frames and employing a majority vote algorithm to parse the best result. This is done by using Sort's tracker [] on the detected bounding boxes. Check `http_stream.py` for an example.
+This approach is arguably less accurate than systems with very accurate segmentation steps on high resolution images, but for our specific applications we achieve competitive results by infering on multiple sequential frames and employing a majority vote algorithm to parse the best result. This is done by using [the Sort tracker](https://github.com/abewley/sort) on the detected bounding boxes. Check `http_stream.py` for an example.
 
 
 ![Feed Example](sample/feed_example.png)

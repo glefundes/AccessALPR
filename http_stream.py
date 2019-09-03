@@ -28,7 +28,7 @@ tprint('DeepALPR',font='slant')
 print(datetime.datetime.now().strftime("%d-%b-%Y (%H:%M:%S)"))
 print('Author: Gabriel Lefundes Vieira (Novandrie)')
 print('IVision Research Lab - Universidade Federal da Bahia @ 2019')
-print('Project Page: <TBD>')
+print('Project Page: https://github.com/glefundes/AccessALPR')
 print('=============================\n')
 
 INPUT_SIZE = int(config['DEFAULT']['InputSize'])
