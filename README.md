@@ -60,12 +60,12 @@ $ python3 http_stream.py
 
 <a name="implementation"></a>
 #### Implementation details:
-The weights for the plate detector and plate reader can be downloaded here: [Google Drive](https://drive.google.com/open?id=1KvIcIMOZ0o9xeW6_Q037Lo8S5bfWUrfz), and their paths should be respectively `detector/weights/detector-w.pth` and 
+The weights for the plate detector and plate reader can be downloaded here: ([Google Drive])(https://drive.google.com/open?id=1KvIcIMOZ0o9xeW6_Q037Lo8S5bfWUrfz). Their paths should be respectively `detector/weights/detector-w.pth` and 
 `reader/weights/reader-w.pth`.
 Due to the proprietary nature of the datasets used, I'm not at liberty to release them for usage.
 
 ##### Plate Detector
-YoloV3 (checkout [@eriklindernoren's implementation] he did a great job) on COCO pre-trained and retrained/finetuned for detection of brazilian license plates. Usage via the PlateDetector object (`detector/PlateDetector.py`). 
+YoloV3 (checkout [@eriklindernoren's implementation](https://github.com/eriklindernoren/PyTorch-YOLOv3) he did a great job) on COCO pre-trained and retrained/finetuned for detection of brazilian license plates. Usage via the PlateDetector object (`detector/PlateDetector.py`). 
 Accuracy is greatly improved if input images have a 1:1 aspect ratio.
 
 ##### Plate Reader
@@ -86,6 +86,9 @@ The code was implemented using Ubuntu 16.04, Python 3.5, Pytorch 1.1.0 and teste
 <a name="References"></a>
 #### Other projects and repositories used during implementation:
 https://github.com/eriklindernoren/PyTorch-YOLOv3
+
 https://github.com/abewley/sort
+
 https://github.com/lukemelas/EfficientNet-PyTorch
+
 Shout out to them, and please check out their great work :)
