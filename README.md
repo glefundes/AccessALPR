@@ -14,6 +14,7 @@ AccessALPR is a semi ad-hoc system developped for robust vehicular access contro
   - Frontal and angled plate location powered by YoloV3;
   - Plate recognition independent of character segmentation;
   - Majority vote heuristic algorithm for video stream recognition performance increase;
+  - Weighted Levenshtein distance costs for plate distance calculation
   - Modular structure (meaning you can easily replace the detection and/or recognition modules to test your own solutions!).
 
 <a name="usage"></a>
@@ -60,7 +61,7 @@ $ python3 http_stream.py
 
 <a name="implementation"></a>
 #### Implementation details:
-The weights for the plate detector and plate reader can be downloaded here: ([Google Drive])(https://drive.google.com/open?id=1KvIcIMOZ0o9xeW6_Q037Lo8S5bfWUrfz). Their paths should be respectively `detector/weights/detector-w.pth` and 
+The weights for the plate detector and plate reader can be downloaded here: [Google Drive](https://drive.google.com/open?id=1KvIcIMOZ0o9xeW6_Q037Lo8S5bfWUrfz). Their paths should be respectively `detector/weights/detector-w.pth` and 
 `reader/weights/reader-w.pth`.
 Due to the proprietary nature of the datasets used, I'm not at liberty to release them for usage.
 
@@ -75,6 +76,7 @@ We employ an Efficient-Net B0 backbone to extract 252 features from an input ima
 
 This approach is arguably less accurate than systems with very accurate segmentation steps on high resolution images, but for our specific applications we achieve competitive results by infering on multiple sequential frames and employing a majority vote algorithm to parse the best result. This is done by using [the Sort tracker](https://github.com/abewley/sort) on the detected bounding boxes. Check `http_stream.py` for an example.
 
+There is also a CLAHE-based histogram normalization feature for usage in situations with limited illumination. Still experimental.
 
 ![Feed Example](sample/feed_example.png)
 The red square is the section that is being passed to the plate detection network, and the blue square is the detected plate bbox. (Plate partially censored due to privacy concerns)
@@ -90,5 +92,7 @@ https://github.com/eriklindernoren/PyTorch-YOLOv3
 https://github.com/abewley/sort
 
 https://github.com/lukemelas/EfficientNet-PyTorch
+
+https://github.com/takeitallsource/cnn-traffic-light-evaluation
 
 Shout out to them, and please check out their great work :)

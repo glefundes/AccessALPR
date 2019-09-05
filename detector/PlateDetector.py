@@ -6,6 +6,7 @@ from detector.models import *
 from detector.utils.utils import *
 from torchvision import transforms
 
+
 class PlateDetector(object):
     def __init__(self, cfg, weights_path, input_size=416, conf_thresh=0.98):
         """

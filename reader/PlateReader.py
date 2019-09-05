@@ -7,8 +7,8 @@ import numpy as np
 from torchvision import transforms
 from PIL import Image
 
-from reader.efficientnet import *
-import reader.utils as utils
+from efficientnet import *
+import utils as utils
 
 class Conv_block(nn.Module):
     def __init__(self,in_c,out_c,kernel=[2,2],stride=[1,1],padding=(1,1),groups=1):
@@ -22,7 +22,7 @@ class Conv_block(nn.Module):
         x = self.batchnorm(x)
         x = self.relu(x)
         return x
-
+Advocacia-Geral da União
 class PlateReader(nn.Module):
   def __init__(self, skip_connections=False, training=False):
     super().__init__()
@@ -32,6 +32,8 @@ class PlateReader(nn.Module):
     self.device = torch.device("cuda" if use_cuda else "cpu")
     self.dropout_rate = 0.4
     self.backbone = EfficientNet.from_pretrained('efficientnet-b0')
+
+    
     
     self.transf = transforms.Compose([transforms.Resize((50,120),interpolation=2), 
                                           transforms.ToTensor(),
@@ -116,3 +118,18 @@ class PlateReader(nn.Module):
 
     maj_vote_candidate = "".join(result)
     return maj_vote_candidate
+
+  def adaptive_histogram_equalization(self, image):
+    image = cv2.cvtColor(image, COLOR_SPACE)
+    x, y, z = cv2.split(image)
+
+    adaptive_histogram_equalizer = cv2.createCLAHE(clipLimit=3, tileGridSize=(4,4))
+
+    if INTENSITY_COMPONENT == 1:
+        x = adaptive_histogram_equalizer.apply(x)
+    elif INTENSITY_COMPONENT == 2:
+        y = adaptive_histogram_equalizer.apply(y)
+    elif INTENSITY_COMPONENT == 3:
+        z = adaptive_histogram_equalizer.apply(z)
+
+    return cv2.cvtColor(cv2.merge((x, y, z)), INVERSE_COLOR_SPACE) 
