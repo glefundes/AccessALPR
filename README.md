@@ -83,8 +83,8 @@ This approach is arguably less accurate than systems with very accurate segmenta
 
 ##### Plate Matching
 100% match is not always a realistic expectation for unconstraind environments, especially for easily mistakable characters like I and T, K and R, etc. In order to use the prediction for access control, we recommend using Weighted Levenshtein's distance. We computed the [confusion matrix](https://github.com/glefundes/AccessALPR/blob/master/sample/confusion_matrix.png) for individual characters on our dataset, and used it to define substitution costs for the weighted Levenshtein distance algorithm according to the following rule:
-$$cost = 1 - 5 \cdot n$$
-where  $n$ is the value for the pairing in the normalized confusion matrix.
+![equation](http://www.sciweavers.org/tex2img.php?eq=%24%24cost%20%3D%201%20-%205%20%5Ccdot%20n%24%24&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+where  *n* is the value for the pairing in the normalized confusion matrix.
 
 To obtain the Levenshtein distance, we call the `utils.lev_distance(plate1, plate2)` function to obtain the value. We establish a threshold of 0.2 for considering the plates a match.
 
@@ -113,10 +113,11 @@ The code was implemented using Ubuntu 16.04, Python 3.5, Pytorch 1.1.0 and teste
 
 <a name="References"></a>
 #### Other projects and repositories used during implementation:
-https://github.com/eriklindernoren/PyTorch-YOLOv3  
-https://github.com/abewley/sort  
-https://github.com/lukemelas/EfficientNet-PyTorch  
-https://github.com/takeitallsource/cnn-traffic-light-evaluation  
-https://github.com/dongb5/Retinex  
+https://github.com/eriklindernoren/PyTorch-YOLOv3
+https://github.com/abewley/sort
+https://github.com/lukemelas/EfficientNet-PyTorch
+https://github.com/takeitallsource/cnn-traffic-light-evaluation
+https://github.com/dongb5/Retinex
+https://github.com/infoscout/weighted-levenshtein
 
 Shout out to them, and please check out their great work :)
