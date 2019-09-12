@@ -1,6 +1,7 @@
 # AccessALPR
 ### Deep Learning-based ALPR system for vehicle access control trained on brazilian license plates
 
+![gif](sample/sample_gif.gif)
 AccessALPR is a semi ad-hoc system developped for robust vehicular access control via images in the wild.
 
 1. [ Features. ](#feats)
