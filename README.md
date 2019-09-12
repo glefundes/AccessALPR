@@ -13,6 +13,7 @@ AccessALPR is a semi ad-hoc system developped for robust vehicular access contro
 #### Features:
   - Frontal and angled plate location powered by YoloV3;
   - Plate recognition independent of character segmentation;
+  - Plate recognition for classic brazilian plates and new Mercosul plates in a single model;
   - Majority vote heuristic algorithm for video stream recognition performance increase;
   - Weighted Levenshtein distance costs for plate distance calculation
   - Modular structure (meaning you can easily replace the detection and/or recognition modules to test your own solutions!).
@@ -22,7 +23,7 @@ AccessALPR is a semi ad-hoc system developped for robust vehicular access contro
 
 For infering on single images, use `test.py` like this:
 ```
-$ python3 test.py -i test/01.jpg -o test/
+$ python3 test.py -i sample/01.jpg -o sample/
 ```
 | Argument      | Description   |
 | -----------   |   ----------- |
@@ -58,6 +59,8 @@ The anchor, HTTP URL, authentication and other configurations can be done by edi
 ```
 $ python3 http_stream.py
 ```
+![Feed Example](sample/feed_example.png)
+The red square is the section that is being passed to the plate detection network, and the blue square is the detected plate bbox. (Plate partially censored due to privacy concerns)
 
 <a name="implementation"></a>
 #### Implementation details:
@@ -76,10 +79,33 @@ We employ an Efficient-Net B0 backbone to extract 252 features from an input ima
 
 This approach is arguably less accurate than systems with very accurate segmentation steps on high resolution images, but for our specific applications we achieve competitive results by infering on multiple sequential frames and employing a majority vote algorithm to parse the best result. This is done by using [the Sort tracker](https://github.com/abewley/sort) on the detected bounding boxes. Check `http_stream.py` for an example.
 
-There is also a CLAHE-based histogram normalization feature for usage in situations with limited illumination. Still experimental.
 
-![Feed Example](sample/feed_example.png)
-The red square is the section that is being passed to the plate detection network, and the blue square is the detected plate bbox. (Plate partially censored due to privacy concerns)
+
+##### Plate Matching
+100% match is not always a realistic expectation for unconstraind environments, especially for easily mistakable characters like I and T, K and R, etc. In order to use the prediction for access control, we recommend using Weighted Levenshtein's distance. We computed the [confusion matrix](https://github.com/glefundes/AccessALPR/blob/master/sample/confusion_matrix.png) for individual characters on our dataset, and used it to define substitution costs for the weighted Levenshtein distance algorithm according to the following rule:
+$$cost = 1 - 5 \cdot n$$
+where  $n$ is the value for the pairing in the normalized confusion matrix.
+
+To obtain the Levenshtein distance, we call the `utils.lev_distance(plate1, plate2)` function to obtain the value. We establish a threshold of 0.2 for considering the plates a match.
+
+
+##### Pre-Processing (Experimental)
+
+There are multiple optional pre-process algorithms available in `reader/utils.py` in the `PreProcessor` class. CLAHE histogram normalization and different RETINEX algorithms are available and can possibly improve performance in low-light situations. Due to limited dataset resources, we could not prove significant quantitative results, but there is a clear visual improvement when applying the filters. To use them, initialize the plate reader object by passing the `filter=` keyword like this:
+
+```
+# Filter options:
+#
+# 'CLAHE';
+# 'RETINEX-CP';
+# 'RETINEX-CR';
+# 'RETINEX-AUTO'.
+
+plate_reader = PlateReader(filter='CLAHE')
+```
+
+It is worth noting that while the best qualitative results are obtained with the Automated RETINEX algorithm, it also introduces significant overhead to the reading process. The RETINEX implementation was taken from [here](https://github.com/dongb5/Retinex).
+
 
 <a name="requirements"></a>
 #### System Requirements:
@@ -88,11 +114,9 @@ The code was implemented using Ubuntu 16.04, Python 3.5, Pytorch 1.1.0 and teste
 <a name="References"></a>
 #### Other projects and repositories used during implementation:
 https://github.com/eriklindernoren/PyTorch-YOLOv3
-
 https://github.com/abewley/sort
-
 https://github.com/lukemelas/EfficientNet-PyTorch
-
 https://github.com/takeitallsource/cnn-traffic-light-evaluation
+https://github.com/dongb5/Retinex
 
 Shout out to them, and please check out their great work :)

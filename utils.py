@@ -5,6 +5,8 @@ import weighted_levenshtein
 config = configparser.ConfigParser()
 
 LEV_WEIGHTS = config['DEFAULT']['LevenshteinWeights']
+LEV_TRESHOLD = 0.2
+
 with open(LevenshteinWeights, 'r') as readFile:
     csvreader = csv.reader(readFile)
     lines = list(csvreader)[1:]
