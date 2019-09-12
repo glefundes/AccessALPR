@@ -1,7 +1,7 @@
 # AccessALPR
 ### Deep Learning-based ALPR system for vehicle access control trained on brazilian license plates
 
-![gif](sample/sample_gif.gif)
+![gif](sample/sample_gif.gif)  
 AccessALPR is a semi ad-hoc system developped for robust vehicular access control via images in the wild.
 
 1. [ Features. ](#feats)
@@ -112,7 +112,7 @@ It is worth noting that while the best qualitative results are obtained with the
 #### System Requirements:
 The code was implemented using Ubuntu 16.04, Python 3.5, Pytorch 1.1.0 and tested to run in real-time on a NVIDIA GTX TITAN 1080.
 
-<a name="References"></a>
+<a name="references"></a>
 #### Other projects and repositories used during implementation:
 https://github.com/eriklindernoren/PyTorch-YOLOv3  
 https://github.com/abewley/sort  
