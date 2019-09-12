@@ -113,10 +113,10 @@ The code was implemented using Ubuntu 16.04, Python 3.5, Pytorch 1.1.0 and teste
 
 <a name="References"></a>
 #### Other projects and repositories used during implementation:
-https://github.com/eriklindernoren/PyTorch-YOLOv3
-https://github.com/abewley/sort
-https://github.com/lukemelas/EfficientNet-PyTorch
-https://github.com/takeitallsource/cnn-traffic-light-evaluation
-https://github.com/dongb5/Retinex
+https://github.com/eriklindernoren/PyTorch-YOLOv3  
+https://github.com/abewley/sort  
+https://github.com/lukemelas/EfficientNet-PyTorch  
+https://github.com/takeitallsource/cnn-traffic-light-evaluation  
+https://github.com/dongb5/Retinex  
 
 Shout out to them, and please check out their great work :)
