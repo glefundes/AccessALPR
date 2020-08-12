@@ -65,7 +65,7 @@ The red square is the section that is being passed to the plate detection networ
 
 <a name="implementation"></a>
 #### Implementation details:
-The weights for the plate detector and plate reader can be downloaded here: [Google Drive](https://drive.google.com/open?id=1KvIcIMOZ0o9xeW6_Q037Lo8S5bfWUrfz). Their paths should be respectively `detector/weights/detector-w.pth` and 
+The weights for the plate detector and plate reader can be downloaded here: [Google Drive](https://drive.google.com/file/d/1KvIcIMOZ0o9xeW6_Q037Lo8S5bfWUrfz/view?usp=sharing). Their paths should be respectively `detector/weights/detector-w.pth` and 
 `reader/weights/reader-w.pth`.
 Due to the proprietary nature of the datasets used, I'm not at liberty to release them for usage.
 
